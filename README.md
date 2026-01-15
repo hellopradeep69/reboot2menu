@@ -1,6 +1,6 @@
 # Reboot2menu
 
-Reboot directly into **UEFI/BIOS firmware** from Linux.  
+Reboot directly into **UEFI/BIOS firmware** from Linux.
 No key-spamming. No timing roulette. One command. Done.
 
 If your system supports UEFI and `systemd`, this script tells Linux to **reboot straight into firmware setup** using the native, supported method.
@@ -13,7 +13,8 @@ If your system supports UEFI and `systemd`, this script tells Linux to **reboot 
 
 ```bash
 systemctl reboot --firmware-setup
-````markdown
+````
+
 # Reboot2menu
 
 Reboot directly into UEFI/BIOS firmware from Linux using a single command.
@@ -41,8 +42,8 @@ The script is already executable and placed in `/usr/local/bin`.
 Manual install:
 
 ```bash
-git clone https://github.com/<your-username>/Reboot2menu.git
-cd Reboot2menu
+git clone https://github.com/amark2005/reboot2menu.git
+cd reboot2menu
 sudo cp reboot2bios.sh /usr/local/bin/reboot2menu
 sudo chmod +x /usr/local/bin/reboot2menu
 ````
